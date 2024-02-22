@@ -1,0 +1,68 @@
+.Signup {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(16, 15, 15, 0.4); 
+  border: 1px solid #6f6a6a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 0.8);
+  }
+  
+  .Signup h2 {
+    text-align: center;
+  color: #2bff00;
+  text-shadow: 4px 2px 4px rgb(255, 0, 0);
+  font-size: 32px;
+  }
+  
+  .Signup form {
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+  }
+  
+  .Signup label {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 247, 255);
+    text-shadow: 4px 4px 4px rgb(72, 0, 255);
+  }
+  
+  .Signup input[type="text"],
+  .Signup input[type="email"],
+  .Signup input[type="tel"],
+  .Signup input[type="password"] {
+    width: 95%;
+    padding: .5rem;
+    background-color: rgba(16, 15, 15, 0.4);
+    color: white;
+  }
+
+.Signup button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 10px;
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Signup button:hover {
+  background-color: #3f6db2;
+}
+
+.Signup p {
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(0, 247, 255);
+  font-size: 20px;
+}
+
+.lin{
+  color: rgb(255, 21, 21);
+}

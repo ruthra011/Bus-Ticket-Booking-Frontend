@@ -1,0 +1,72 @@
+.SeatSelection {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: auto;
+  padding: 20px;
+  background-color: rgba(16, 15, 15, 0.4); 
+  border: 1px solid #6f6a6a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 0.8);
+}
+
+h2 {
+  text-align: center;
+  color: #2bff00;
+  text-shadow: 4px 2px 4px rgb(255, 0, 0);
+  font-size: 32px;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #e3ed95;
+  border: 1px solid #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #0dff00;
+  color: #0004e8;
+}
+
+.seat-row .seat:nth-child(2) {
+  margin-right: 30px;
+}
+
+p {
+  margin: 10px 0;
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(0, 247, 255);
+  font-size: 20px;
+}
+
+.lin{
+  text-align: center;
+}
+
+.lin button{
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  width: fit-content;
+  
+}
+
+.lin button:hover{
+  background-color: #3f6db2;
+}

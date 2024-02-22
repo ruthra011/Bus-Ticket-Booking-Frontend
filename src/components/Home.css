@@ -1,0 +1,205 @@
+.Home {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: rgba(16, 15, 15, 0.4); 
+  border: 1px solid #6f6a6a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 0.8);
+
+}
+
+.Home h2 {
+  text-align: center;
+  color: #2bff00;
+  text-shadow: 4px 2px 4px rgb(255, 0, 0);
+  font-size: 38px;
+  line-height: 1.5cm;
+}
+
+.Home p {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 247, 255);
+  text-shadow: 4px 4px 4px rgb(72, 0, 255);
+  text-align: center;
+}
+
+.Home button{
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 46%;
+}
+
+.Home button:hover {
+  background-color: #3f6db2;
+}
+
+.split{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Home1{
+  border: 1px solid #37fdd6;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 1.5);
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: auto;
+  width: 90%;
+  background-color: rgba(15, 15, 15, 0.2);
+  color: #f7e702; 
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+.Home1 h1{
+  font-size: 20px;
+  text-shadow: 2px 3px 4px rgb(255, 0, 0);
+}
+.Home1 p{
+  font-size: 16px;
+  color: rgb(245, 245, 220);
+  text-shadow: 2px 3px 4px rgb(115, 0, 255);
+  text-align: justify;
+}
+
+.Home11{
+  border: 1px solid #37fdd6;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 1.5);
+  padding: 20px;
+  margin-top: 40px;
+  margin: auto;
+  width: 90%;
+  background-color: rgba(15, 15, 15, 0.2);
+  color: #f7e702; 
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+.Home11 h1{
+  font-size: 20px;
+  text-shadow: 2px 3px 4px rgb(255, 0, 0);
+}
+.Home11 p{
+  font-size: 16px;
+  color: beige;
+  text-shadow: 2px 3px 4px rgb(115, 0, 255);
+  text-align: justify;
+}
+
+.Home2{
+  border: 1px solid #37fdd6;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 1.5);
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: auto;
+  width: 90%;
+  background-color: rgba(15, 15, 15, 0.2);
+  color: #f7e702; 
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+.Home2 h1{
+  font-size: 20px;
+  text-shadow: 2px 3px 4px rgb(255, 0, 0);
+}
+.Home2 p{
+  font-size: 16px;
+  color: beige;
+  text-shadow: 2px 3px 4px rgb(115, 0, 255);
+  text-align: justify;
+}
+
+.Home22{
+  border: 1px solid #37fdd6;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 1.5);
+  padding: 20px;
+  margin-top: 20px;
+  margin: auto;
+  width: 90%;
+  background-color: rgba(15, 15, 15, 0.2);
+  color: #f7e702; 
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+.Home22 h1{
+  font-size: 20px;
+  text-shadow: 2px 3px 4px rgb(255, 0, 0);
+}
+.Home22 p{
+  font-size: 16px;
+  color: beige;
+  text-shadow: 2px 3px 4px rgb(115, 0, 255);
+  text-align: justify;
+}
+
+.Points {
+  display: none; 
+}
+
+.Points.visible {
+  display: block; 
+}
+
+.HomeLinks {
+  padding: 0px;
+}
+
+.QuickLinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-right: 0px;
+  width: auto;
+}
+
+.QuickLink {
+  width: calc(22% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.QuickLink h2 {
+  font-size: 18px;
+  margin-bottom:0 55px;
+  white-space: nowrap;
+  text-align: center; 
+  margin-right: auto;
+  row-gap: 50px;
+}
+
+.QuickLink h2 {
+  white-space: nowrap;
+  gap: 150px;
+}
+
+
+.QuickLink p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.QuickLink li {
+  white-space: nowrap;
+}
+
+.QuickLink li{
+ color: #37fdd6;
+}

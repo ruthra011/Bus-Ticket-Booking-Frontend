@@ -1,0 +1,10 @@
+
+ .App {
+  position: relative;
+  min-height: 100vh; 
+  
+  background-image: url("D:\PRO\BUS1.png");
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed;
+}

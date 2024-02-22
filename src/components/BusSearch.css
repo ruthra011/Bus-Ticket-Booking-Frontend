@@ -1,0 +1,81 @@
+.BusSearch {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(16, 15, 15, 0.4); 
+  border: 1px solid #6f6a6a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(248, 253, 143, 0.8);
+}
+
+.BusSearch h2 {
+  text-align: center;
+  color: #2bff00;
+  text-shadow: 4px 2px 4px rgb(255, 0, 0);
+  font-size: 32px;
+}
+
+.BusSearch form {
+  display: flex;
+  font-size: 22px;
+  flex-direction: column;
+}
+
+.BusSearch label {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 247, 255);
+  text-shadow: 4px 4px 4px rgb(72, 0, 255);
+}
+
+.BusSearch input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: rgba(16, 15, 15, 0.4);
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+.BusSearch button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.BusSearch button:hover {
+  background-color: #3f6db2;
+}
+
+.BusSearch Link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.BusSearch Link:hover {
+  text-decoration: underline;
+}
+
+.lin1 button{
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  width: fit-content;
+}
+
+.lin1 button:hover{
+  background-color: #ff0000;
+}
